@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="script.js"></script>
+  <title>Exercice 2</title>
+</head>
+<body ng-app="myapp">
+  <div class="container-fluid text-center">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-3">Exercice 2</h1>
+        <p class="lead">Partie Bonus</p>
+        <p>Faire un bouton qui affiche une alerte dès que l'on clique dessus.</p>
+      </div>
+    </div>
+    <div ng-controller="MyController">
+      <button ng-click="clickMe()" type="button" name="button">Bouton alerte</button>
+    </div>
+  </div>
+</body>
+</html>
